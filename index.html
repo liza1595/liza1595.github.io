@@ -98,7 +98,7 @@ ul li.checked::before {
 }
 
 /* Style the input */
-input, label, select {
+input {
   margin: 0;
   border: none;
   border-radius: 0;
@@ -136,12 +136,6 @@ input, label, select {
   <p>To mark off a completed task, click on it</p>
   <input type="text" id="myInput" placeholder="Title...">
   <input type="date" id="due" name="Due Date" value="yyyy-mm-dd"/>
-  <label for="priority">Task Priority</label>
-		<select name="priority" id="priority">
-		  <option value="high">High Priority</option>
-		  <option value="med">Medium Priority</option>
-		  <option value="low">Low Priority</option>
-		</select>
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
 
